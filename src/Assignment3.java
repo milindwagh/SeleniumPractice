@@ -42,7 +42,7 @@ public class Assignment3 {
 		//String[] itemNeeded = {"iphone X", "Samsung Note 8", "Nokia Edge", "Blackberry"};
 		
 		List<WebElement> products = driver.findElements(By.cssSelector(".card-body"));
-		//List<WebElement> tital = driver.findElements(By.csmsSelector(".card-title"));
+		//List<WebElement> tital = driver.findElements(By.cssSelector(".card-title"));
 		for(int i=0; i < products.size(); i++)
 		{
 					driver.findElements(By.xpath("//div[@class='card-footer']/button")).get(i).click();
